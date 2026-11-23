@@ -1,0 +1,11 @@
+{
+  "tipo": "producto",
+  "producto_id": "PROD-002",
+  "nombre": "Cafe Molido 250g",
+  "categoria": "Alimentos",
+  "descripcion": "Cafe tostado y molido",
+  "precio": 25.0,
+  "stock": 80,
+  "moneda": "PEN",
+  "activo": true
+}

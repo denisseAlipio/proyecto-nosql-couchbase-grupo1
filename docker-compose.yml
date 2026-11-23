@@ -1,0 +1,14 @@
+# Configuración base para desarrollo local. Requiere inicialización manual por Web Console.
+# No ejecutar en la misma máquina si ya existe un contenedor llamado couchbase-grupo1.
+services:
+  couchbase:
+    image: couchbase/server:community-7.6.1
+    container_name: couchbase-grupo1
+    ports:
+      - "8091-8096:8091-8096"
+      - "11210-11211:11210-11211"
+    volumes:
+      - couchbase_grupo1_data:/opt/couchbase/var
+
+volumes:
+  couchbase_grupo1_data:

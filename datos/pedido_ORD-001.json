@@ -1,0 +1,47 @@
+{
+  "tipo": "pedido",
+  "pedido_id": "ORD-001",
+  "cliente_id": "CLI-001",
+  "cliente_resumen": {
+    "nombre": "Maria Torres",
+    "email": "maria@example.com"
+  },
+  "fecha_creacion": "2026-11-22T20:50:00-05:00",
+  "estado_actual": "pendiente",
+  "items": [
+    {
+      "producto_id": "PROD-001",
+      "nombre": "Aceite de Oliva 1L",
+      "cantidad": 2,
+      "precio_unitario": 45.0,
+      "subtotal": 90.0
+    },
+    {
+      "producto_id": "PROD-002",
+      "nombre": "Cafe Molido 250g",
+      "cantidad": 1,
+      "precio_unitario": 25.0,
+      "subtotal": 25.0
+    }
+  ],
+  "total": 115.0,
+  "moneda": "PEN",
+  "pago": {
+    "metodo": null,
+    "transaccion_id": null,
+    "estado": "pendiente",
+    "fecha": null
+  },
+  "envio": {
+    "direccion": "Trujillo, Peru",
+    "courier": null,
+    "tracking": null,
+    "estado": "pendiente"
+  },
+  "historial_estados": [
+    {
+      "estado": "pendiente",
+      "fecha": "2026-11-22T20:50:00-05:00"
+    }
+  ]
+}

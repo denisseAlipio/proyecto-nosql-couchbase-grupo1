@@ -1,0 +1,9 @@
+-- Consulta SQL++ propuesta para recuperar el primer pedido por su Document ID.
+-- Ejecutar desde Query Workbench luego de crear la colección y cargar el documento.
+SELECT p.pedido_id,
+       p.cliente_id,
+       p.estado_actual,
+       p.total,
+       p.items
+FROM `ecommerce_db`.`gestion_pedidos`.`pedidos` AS p
+USE KEYS "pedido::ORD-001";

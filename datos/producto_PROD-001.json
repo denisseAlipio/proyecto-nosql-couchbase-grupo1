@@ -1,0 +1,11 @@
+{
+  "tipo": "producto",
+  "producto_id": "PROD-001",
+  "nombre": "Aceite de Oliva 1L",
+  "categoria": "Alimentos",
+  "descripcion": "Aceite de oliva extra virgen",
+  "precio": 45.0,
+  "stock": 100,
+  "moneda": "PEN",
+  "activo": true
+}

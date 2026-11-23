@@ -1,0 +1,10 @@
+{
+  "tipo": "cliente",
+  "cliente_id": "CLI-001",
+  "nombre": "Maria Torres",
+  "email": "maria@example.com",
+  "telefono": "987654321",
+  "direccion": "Trujillo, Peru",
+  "fecha_registro": "2026-11-22T10:00:00Z",
+  "activo": true
+}
