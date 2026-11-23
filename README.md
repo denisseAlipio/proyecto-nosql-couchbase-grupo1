@@ -2,7 +2,7 @@
 
 Proyecto universitario: sistema administrativo de pedidos y transacciones para comercio electrónico, con **Couchbase Server Community 7.6.1** como motor documental / clave-valor.
 
-## Avance verificado en la laptop de desarrollo (23/11/2026)
+## Avance verificado en la laptop de desarrollo:
 - Docker Desktop ejecuta un contenedor `couchbase-grupo1` con Couchbase Server 7.6.1.
 - Se configuró un clúster local de **1 nodo** con servicios Data, Index y Query.
 - Bucket `ecommerce_db` (256 MiB; **réplicas deshabilitadas temporalmente**).
@@ -45,7 +45,7 @@ No ejecutar `docker compose up -d` sobre la misma máquina sin revisar conflicto
 - Prueba con dos nodos, replicación y failover si el entorno lo permite.
 - Pruebas con volumen de datos y documento técnico final.
 
-Informe técnico de trabajo (Google Docs, requiere permisos de acceso otorgados por la propietaria):
+Informe técnico de trabajo (Google Docs):
 https://docs.google.com/document/d/1mPGRGYT35EhXcpQeJiJSocS9FQdd3B5nwZmqSSTlLy0/edit
 
 **Nunca publicar contraseñas ni subir el contenido del volumen de Docker.**
